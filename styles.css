@@ -80,7 +80,7 @@ h4 {
 
 .ul_c {
     list-style-type: none;
-    background-color: #e7eeee;
+    background-color: #e7eeee; 
 }
 
 
@@ -97,11 +97,10 @@ li {
 }
 
 .li2 {
-    margin-left: 250px;
-    padding-left: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
     font-family: 'Segoe UI', Tahoma, Verdana;
     font-weight: lighter;
-
 }
 
 table {
@@ -169,7 +168,7 @@ nav ul li a:hover {
 
 /*Mobiilityylit*/
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 800px) {
 
     /* Asetetaan elementit allekkain */
 
@@ -197,7 +196,7 @@ nav ul li a:hover {
         padding: 8px 16px;
     }
 
-    .header, p, ul, li, h1, h2, h3, h4 {
+    .header, p, ul, li, h1, h2, h3, h4, table {
         margin-left: 0;
         text-align: left;
         padding-left: 10px;
