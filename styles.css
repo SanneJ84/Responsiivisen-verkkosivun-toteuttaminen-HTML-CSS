@@ -1,6 +1,6 @@
 body {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
     font-family: 'Segoe UI', Tahoma, Verdana;
     background-color:rgb(255, 255, 255)    
     
@@ -75,8 +75,14 @@ h4 {
 
 .ul_a {
     list-style-type: circle;
-    padding-left: 30px;
+    margin-left: 70px;
 }
+
+.ul_c {
+    list-style-type: none;
+    background-color: #e7eeee;
+}
+
 
 .header {
     max-width: 85%;
@@ -90,11 +96,18 @@ li {
     font-weight: lighter;
 }
 
+.li2 {
+    margin-left: 250px;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana;
+    font-weight: lighter;
+
+}
+
 table {
     margin-left: 200px;
     border-collapse: collapse; 
     border: 1px solid rgb(82, 79, 79);
-
 }
 
 th {
@@ -107,30 +120,29 @@ th {
     text-align: center;
 }
 
-td, ul {
+td, .ul_c {
     border: 1px solid rgb(82, 79, 79); 
     padding: 10px;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-}
 
-ul:nth-child(odd) {
-    background-color: #e7eeee;
 }
-
 
 nav {
     top: 0;
     width: 100%;
     padding-top: 30px;
 }
+
 nav div {
     max-width: 75%;
     margin-left: 200px;
+    background-color: #e7eeee;
 }
 nav ul {
+    border: 1px solid rgb(82, 79, 79);
     list-style-type: none;
     padding: 0;
     margin: 0;
