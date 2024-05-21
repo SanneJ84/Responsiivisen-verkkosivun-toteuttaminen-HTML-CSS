@@ -2,8 +2,7 @@ body {
     margin-top: 0px;
     margin-bottom: 100px;
     font-family: 'Segoe UI', Tahoma, Verdana;
-    background-color:rgb(255, 255, 255)    
-    
+    background-color:rgb(255, 255, 255)     
 }
 
 p {
@@ -38,7 +37,6 @@ h2 {
     margin-left: 200px;
     padding-top: 10px;
     font-weight: 400;
-
 }
 
 h3 {
@@ -46,8 +44,7 @@ h3 {
     font-family: 'Segoe UI', Tahoma, Verdana;
     font-size: 150%;
     margin-left: 200px;
-    font-weight: 400;
-    
+    font-weight: 400;  
 }
 
 h4 {
@@ -63,7 +60,6 @@ h4 {
     border-top: 1px solid rgb(219, 219, 219);
     margin-left: 200px;
     max-width: 100%;
-    
 }
 
 .ul_b {
@@ -119,7 +115,6 @@ td, .ul_c {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-
 }
 
 nav {
@@ -157,7 +152,6 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #99bdb4;
 }
-
 
 /*Mobiilityylit*/
 
