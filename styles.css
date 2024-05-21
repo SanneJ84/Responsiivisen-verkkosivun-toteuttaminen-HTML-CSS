@@ -12,7 +12,7 @@ p {
     font-size: 100%;
     margin-left: 200px;
     font-weight: lighter;
-    color: rgb(82, 79, 79); 
+    color: rgb(27, 24, 24); 
     line-height: 1;
 }
 
@@ -70,7 +70,7 @@ h4 {
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Verdana;
     font-weight: lighter;
-    color: rgb(82, 79, 79);
+    color: rgb(27, 24, 24);
 }
 
 .ul_a {
@@ -99,11 +99,11 @@ li {
 table {
     margin-left: 200px;
     border-collapse: collapse; 
-    border: 1px solid rgb(82, 79, 79);
+    border: 1px solid rgb(27, 24, 24);
 }
 
 th {
-    border: 1px solid rgb(82, 79, 79); 
+    border: 1px solid rgb(27, 24, 24); 
     padding: 10px;
     margin-top: 0px;
     margin-left: 0px;
@@ -113,7 +113,7 @@ th {
 }
 
 td, .ul_c {
-    border: 1px solid rgb(82, 79, 79); 
+    border: 1px solid rgb(27, 24, 24); 
     padding: 10px;
     margin-top: 0px;
     margin-left: 0px;
@@ -134,12 +134,12 @@ nav div {
     background-color: #e7eeee;
 }
 nav ul {
-    border: 1px solid rgb(82, 79, 79);
+    border: 1px solid rgb(27, 24, 24);
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 
 nav ul li {
@@ -161,7 +161,7 @@ nav ul li a:hover {
 
 /*Mobiilityylit*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
 
     /* Asetetaan elementit allekkain */
 
@@ -181,12 +181,8 @@ nav ul li a:hover {
         align-items: center;
     }
     
-    nav ul li {
-        margin-bottom: 10px;
-    }
-    
     nav ul li a {
-        padding: 8px 16px;
+        padding: 3px 16px;
     }
 
     .header, p, ul, li, h1, h2, h3, h4, table {
